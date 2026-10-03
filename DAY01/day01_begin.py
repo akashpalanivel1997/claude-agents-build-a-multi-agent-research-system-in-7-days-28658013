@@ -35,4 +35,5 @@ async def run_search_agent(topic: str) -> None:
             print(f"\nDone in {message.num_turns} turns.")
             print(f"Estimated cost: ${message.total_cost_usd:.4f}")
 
-#TODO: Choose a research topic and run your query
+if __name__ == "__main__": asyncio.run(run_search_agent(
+New FDA guidance on AI in medical devices))
